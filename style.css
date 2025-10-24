@@ -7,3 +7,29 @@
 body {
     text-align: center;
 }
+
+.footer{
+text-align: right  !important;
+}
+
+
+#footer_contact {
+    margin: 0 auto; /* centre le tableau */
+    border-collapse: collapse;
+    text-align: center;
+    width: 80%; /* adapte la largeur à ton goût */
+}
+
+#footer_contact th {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+#footer_contact td {
+    padding: 8px;
+}
+
+#icon-fb {
+    height: 25px;
+}
