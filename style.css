@@ -8,10 +8,14 @@ body {
     text-align: center;
 }
 
-.footer{
-text-align: right  !important;
+#presentation {
+    font-size: 1.4rem;
 }
 
+#zone_img {
+    border-radius: 20px;
+    margin: 20px;
+}
 
 #footer_contact {
     margin: 0 auto; /* centre le tableau */
