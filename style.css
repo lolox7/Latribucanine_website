@@ -17,6 +17,7 @@ body {
     border-radius: 20px;
     margin: 20px;
     width: 80%;
+    max-width: 1500px;
 }
 
 #footer_contact {
