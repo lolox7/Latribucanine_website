@@ -111,3 +111,47 @@ header {
     display: block;
   }
 }
+
+/* style du cta */
+.cta-promo {
+  background: linear-gradient(135deg, #ffcc70, #ff9966);
+  color: #2b2b2b;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  margin: 3rem auto;
+  max-width: 800px;
+}
+
+.cta-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.cta-text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-subtext {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 0.9rem 2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #444;
+  transform: scale(1.05);
+}
