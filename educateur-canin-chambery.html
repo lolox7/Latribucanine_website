@@ -3,45 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vous voulez de l'aide poour eduquer votre chien ou resoudre ses troubles de comportement. La tribu canine vous accompagne pour resoudre vos problemes.">
+    <meta name="description" content="Vous voulez de l'aide pour éduquer votre chien ou résoudre ses troubles de comportement. La Tribu Canine vous accompagne pour résoudre vos problèmes.">
     <link rel="icon" href="/Images/ltcfavicon.ico" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Accueil - La Tribu Canine - Educateur comportementaliste canin</title>
 </head>
+
+<!-- PAGE D'ACCUEIL - LA TRIBU CANINE -->
 <body>
-
-    <a href="index.html">
-        <img id="Logo" src="/Images/LOGO tribu canine.png" alt="Logo Tribu Canine" > <br>
-    </a>
-
     <header>
-  <nav class="navbar">
+        <a href="index.html">
+            <img id="Logo" src="/Images/LOGO tribu canine.png" alt="Logo Tribu Canine" > <br>
+        </a>
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="educateur-canin-chambery.html">Éducateur canin</a></li>
+                <li><a href="educateur-chiot-chambery.html">Éducateur de chiot</a></li>
+                <li><a href="comportementaliste-canin-chambery.html">Comportementaliste canin</a></li>
+                <!-- <li><a href="temoignages.html">Témoignages</a></li> -->
+                <li><a href="nos-methodes.html">Nos méthodes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="menu-icon">&#9776;</label>
-
-    <ul class="menu">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="educateur-canin-chambery.html">Éducateur canin</a></li>
-            <li><a href="educateur-chiot-chambery.html">Éducateur de chiot</a></li>
-            <li><a href="comportementaliste-canin-chambery.html">Comportementaliste canin</a></li>
-            <li><a href="temoignages.html">Témoignages</a></li>
-            <li><a href="nos-methodes.html">Nos méthodes</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-  </nav>
-</header>
-
+    <!-- CORPS DE PAGE -->
     <main>
-        <h1>
-            Educateur et comportementaliste canin à Chambéry et tout le bassin chambérien,<br>
-            de Aix-les-Bains à Challes-les-eaux (73)
-        </h1>
+        <!-- HERO -->
+        <section class="hero" style="background-image:url('/assets/hero-chien.jpg');">
+            <div class="hero-inner">
+                <h1>Éducateur Canin à Chambéry (73)</h1>
+                <div class="cta-row">
+                    <a class="btn btn--primary" href="tel:0612210744">Appelez-moi : 06 12 21 07 44</a>
+                    <a class="btn btn--secondary" href="mailto:latribucanine@gmail.com">Contactez-moi par mail</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- CTA -->
         <section class="cta-promo">
             <div class="cta-container">
             <h2 class="cta-title">🎁 Offre spéciale de lancement</h2>
             <p class="cta-text">
-                Pour fêter l’ouverture de <strong>La Tribu Canine</strong>, nous offrons un
+                Pour fêter l'ouverture de <strong>La Tribu Canine</strong>, nous offrons un
                 <strong>accompagnement personnalisé GRATUIT</strong> aux
                 <strong>10 premiers clients</strong> !
             </p>
@@ -52,48 +62,117 @@
             </div>
         </section>
 
-        <h2>
-            Le site est en cours de construction. <br>
-        </h2>
-            <p>
-                Vous rencontrez des problématiques d'éducation ? De comportement ? Ou vous voulez tout simplement du conseil pour plus de complicité avec votre animal ?<br>
-                <h2>N'hésitez pas à me contacter au 06 12 21 07 44 pour tout renseignement.</h2> <br>
-                <br>
-                Je travaille principalement en vous proposant un accompagnement pour résoudre vos soucis !<br>
-                <br>
-                Si je ne réponds pas vous pouvez me laisser un message ou me joindre par sms.<br>
-            </p>
-        <h2>
-            Merci de votre visite
-        </h2>
-    </main>
 
-    <footer>
-    <table id="footer_contact">
-        <tr>
-            <th colspan="3" id="footer_title">Contactez-moi par ces moyens</th>
-        </tr>
-        <tr>
-            <td>Appels et SMS</td>
-            <td>E-mail</td>
-            <td>Réseaux Sociaux</td>
-        </tr>
-        <tr>
-            <td>06 12 21 07 44</td>
-            <td><a href="mailto:latribucanine@gmail.com">latribucanine@gmail.com</a></td>
-            <td>
-                <a href="https://www.facebook.com/profile.php?id=61581794217157">
-                    <img id="icon-fb" src="/Images/facebook.png" alt="Facebook">
+        <!-- SECTION CONTENU EDUCATION CANINE -->
+        <section class="section-education">
+            <h2>Nos Cours et Séances</h2>
+            
+            <div class="education-container">
+
+                <!-- Carte 1 -->
+                <div class="education-card">
+                    <h3>Chien tire en laisse</h3>
+                    <p>
+                        Votre chien tire en laisse, il tire sans cesse et rien n’y fait. Vous avez tout essayé et vos promenades sont désagréables.
+                    </p>
+                    <a href="tel:0658064286" class="btn-service">Contactez-nous au 06 12 21 07 44</a>
+                </div>
+
+                <!-- Carte 2 -->
+                <div class="education-card">
+                    <h3>Dressage canin</h3>
+                    <p>
+                        Votre chien ne vous obéit pas à la maison comme à l’extérieur, il est intenable et vous n’arrivez pas à lui faire entendre raison. Il est surexcité et vous ne réussissez pas à le calmer ! Il est têtu !
+                    </p>
+                    <a href="tel:0658064286" class="btn-service">Contactez-nous au 06 12 21 07 44</a>
+                </div>
+
+                <!-- Carte 3 -->
+                <div class="education-card">
+                    <h3>Manque de rappel chez le chien</h3>
+                    <p>
+                        Votre chien ne revient pas au rappel, il n’en fait qu’à sa tête. Vous aimeriez pouvoir le lâcher et le voir courir.
+                    </p>
+                    <a href="tel:0658064286" class="btn-service">Contactez-nous au 06 12 21 07 44</a>
+                </div>
+
+                <!-- Carte 4 -->
+                <div class="education-card">
+                    <h3>Chien obéissant</h3>
+                    <p>
+                        Après quelques séances individuelles, vous aurez un chien au pied, qui ne tire plus en promenade et un chien calme et obéissant à la maison. Les ordres de base seront acquis : assis, couché, pas bougé. Vous aurez un chien qui revient au rappel, et toutes les personnes que vous croiserez vous envieront.
+                    </p>
+                    <a href="tel:0658064286" class="btn-service">Contactez-nous au 06 12 21 07 44</a>
+                </div>
+
+                <!-- Carte 5 -->
+                <div class="education-card">
+                    <h3>Marche au pied</h3>
+                    <p>
+                        Rejoignez La Tribu Canine et vous aurez une marche en laisse comme celle-ci. Vous pourrez ainsi retrouver une vie sereine lors de vos promenades avec votre chien. Il vous obéira et vous retrouverez une belle complicité.
+                    </p>
+                    <a href="tel:0658064286" class="btn-service">Contactez-nous au 06 12 21 07 44</a>
+                </div>
+
+                <!-- Carte 6 -->
+                <div class="education-card">
+                    <h3>Rappel chien éducation</h3>
+                    <p>
+                        Vous pourrez le promener sans laisse afin qu’il puisse courir et se dépenser pour votre plus grand bonheur à tous les deux… car vous aurez un excellent rappel. Vous aurez un chien calme et obéissant à la maison, vous pourrez recevoir du monde et l’emmener partout.
+                    </p>
+                    <a href="tel:0658064286" class="btn-service">Contactez-nous au 06 12 21 07 44</a>
+                </div>
+
+            </div>
+
+            <!-- Texte explicatif -->
+            <div class="education-text">
+                <h3>Les cours d’éducation canine et leur fonctionnement</h3>
+                <p>
+                    Tout d’abord, pourquoi <strong>éduquer un chien</strong> ? <strong>Un chien bien éduqué</strong> sera heureux, bien dans ses pattes et fera le bonheur et la fierté de son entourage. À contrario, un très grand nombre de chiens <strong>non éduqués ou mal éduqués</strong> développeront des <strong>troubles du comportement.</strong> De ce fait, ils feront vivre un enfer à leurs maîtres, seront malheureux, et cela pourra engendrer de <strong>la maltraitance, des abandons, voire des euthanasies</strong>.
+                </p>
+                <p>
+                    Pour <strong>bien éduquer son chien</strong>, il ne suffit pas de lui apprendre le assis ou le coucher. <strong>Éduquer un chien</strong> est un ensemble de choses. Pour ce faire, il est nécessaire de respecter 4 grands principes : mettre en place des règles de vie, répondre aux besoins du chien, renforcer l’obéissance, et intégrer le chien à la vie en société. La Tribu Canine vous permet de traiter tous ces points au moyen de séances théoriques, mais aussi et surtout en <strong>séances individuelles pratiques</strong>, directement en immersion dans votre quotidien.
+                </p>
+                <p>
+                    Les <strong>séances individuelles</strong> se déroulent à votre <strong>domicile</strong>, dans la rue, dans des parcs ou en forêts, selon le sujet travaillé et les besoins. <strong>Des séances collectives et des balades éducatives</strong> sont également organisées afin de parfaire les apprentissages des maîtres et de leurs chiens en présence de nombreux stimuli.
+                </p>
+            </div>
+        </section>
+
+
+
+
+
+        <!-- FINAL HERO -->
+        <section class="final-hero">
+            <h3>Connaître notre fonctionnement et notre méthode d’éducation ?</h3><br>
+            <a href="tel:0658064286" class="btn-final">Contactez-nous au 06 12 21 07 44</a>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <h3 class="footer-title">Contactez-moi</h3>
+            
+            <div class="footer-contacts">
+                <a href="tel:0612210744" class="footer-contact">
+                    📞 06 12 21 07 44
                 </a>
-            </td>
-        </tr>
-    </table>  
+                <a href="mailto:latribucanine@gmail.com" class="footer-contact">
+                    ✉️ latribucanine@gmail.com
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61581794217157" class="footer-contact">
+                    <img class="footer-icon" src="/Images/facebook_white.png" alt="Facebook">
+                </a>
+            </div>
 
-    <br>
-    Liste des sites partenaires : <br>
-    <a href="https://www.proxianimaux.fr">https://www.proxianimaux.fr</a>
-</footer>
+            <div class="footer-partners">
+                <p>Sites partenaires :</p>
+                <a href="https://www.proxianimaux.fr">proxianimaux.fr</a>
+            </div>
+        </footer>
 
 
+    <script src="animation.js"></script>
 </body>
 </html>

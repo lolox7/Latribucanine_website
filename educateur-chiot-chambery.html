@@ -3,45 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vous voulez de l'aide poour eduquer votre chien ou resoudre ses troubles de comportement. La tribu canine vous accompagne pour resoudre vos problemes.">
+    <meta name="description" content="Vous voulez de l'aide pour éduquer votre chien ou résoudre ses troubles de comportement. La Tribu Canine vous accompagne pour résoudre vos problèmes.">
     <link rel="icon" href="/Images/ltcfavicon.ico" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Accueil - La Tribu Canine - Educateur comportementaliste canin</title>
 </head>
+
+<!-- PAGE D'ACCUEIL - LA TRIBU CANINE -->
 <body>
-
-    <a href="index.html">
-        <img id="Logo" src="/Images/LOGO tribu canine.png" alt="Logo Tribu Canine" > <br>
-    </a>
-
     <header>
-  <nav class="navbar">
+        <a href="index.html">
+            <img id="Logo" src="/Images/LOGO tribu canine.png" alt="Logo Tribu Canine" > <br>
+        </a>
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="educateur-canin-chambery.html">Éducateur canin</a></li>
+                <li><a href="educateur-chiot-chambery.html">Éducateur de chiot</a></li>
+                <li><a href="comportementaliste-canin-chambery.html">Comportementaliste canin</a></li>
+                <!-- <li><a href="temoignages.html">Témoignages</a></li> -->
+                <li><a href="nos-methodes.html">Nos méthodes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="menu-icon">&#9776;</label>
-
-    <ul class="menu">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="educateur-canin-chambery.html">Éducateur canin</a></li>
-            <li><a href="educateur-chiot-chambery.html">Éducateur de chiot</a></li>
-            <li><a href="comportementaliste-canin-chambery.html">Comportementaliste canin</a></li>
-            <li><a href="temoignages.html">Témoignages</a></li>
-            <li><a href="nos-methodes.html">Nos méthodes</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-  </nav>
-</header>
-
+    <!-- CORPS DE PAGE -->
     <main>
-        <h1>
-            Educateur et comportementaliste canin à Chambéry et tout le bassin chambérien,<br>
-            de Aix-les-Bains à Challes-les-eaux (73)
-        </h1>
+        <!-- HERO -->
+        <section class="hero" style="background-image:url('/assets/hero-chien.jpg');">
+            <div class="hero-inner">
+                <h1>Éducation du chiot à Chambéry</h1>
+                <div class="cta-row">
+                    <a class="btn btn--primary" href="tel:0612210744">Appelez-moi : 06 12 21 07 44</a>
+                    <a class="btn btn--secondary" href="mailto:latribucanine@gmail.com">Contactez-moi par mail</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- CTA -->
         <section class="cta-promo">
             <div class="cta-container">
             <h2 class="cta-title">🎁 Offre spéciale de lancement</h2>
             <p class="cta-text">
-                Pour fêter l’ouverture de <strong>La Tribu Canine</strong>, nous offrons un
+                Pour fêter l'ouverture de <strong>La Tribu Canine</strong>, nous offrons un
                 <strong>accompagnement personnalisé GRATUIT</strong> aux
                 <strong>10 premiers clients</strong> !
             </p>
@@ -52,48 +62,135 @@
             </div>
         </section>
 
-        <h2>
-            Le site est en cours de construction. <br>
-        </h2>
-            <p>
-                Vous rencontrez des problématiques d'éducation ? De comportement ? Ou vous voulez tout simplement du conseil pour plus de complicité avec votre animal ?<br>
-                <h2>N'hésitez pas à me contacter au 06 12 21 07 44 pour tout renseignement.</h2> <br>
-                <br>
-                Je travaille principalement en vous proposant un accompagnement pour résoudre vos soucis !<br>
-                <br>
-                Si je ne réponds pas vous pouvez me laisser un message ou me joindre par sms.<br>
-            </p>
-        <h2>
-            Merci de votre visite
-        </h2>
-    </main>
 
-    <footer>
-    <table id="footer_contact">
-        <tr>
-            <th colspan="3" id="footer_title">Contactez-moi par ces moyens</th>
-        </tr>
-        <tr>
-            <td>Appels et SMS</td>
-            <td>E-mail</td>
-            <td>Réseaux Sociaux</td>
-        </tr>
-        <tr>
-            <td>06 12 21 07 44</td>
-            <td><a href="mailto:latribucanine@gmail.com">latribucanine@gmail.com</a></td>
-            <td>
-                <a href="https://www.facebook.com/profile.php?id=61581794217157">
-                    <img id="icon-fb" src="/Images/facebook.png" alt="Facebook">
+
+
+        <!-- CONTENU PRINCIPAL ÉDUCATEUR DE CHIOT -->
+        <section class="section-chiot">
+            <div class="container">
+                <!-- Cartes services chiot -->
+                <div class="services-container">
+                    <div class="service-card">
+                        <h3>Accueil du chiot</h3>
+                        <p>Vous souhaitez accueillir un chiot mais vous ne savez pas quelle race est la plus adaptée à vos habitudes : Nous vous accompagnons dans le choix de la race du chiot.</p>
+                        <a href="tel:0658064286" class="btn-service">Contactez-nous</a>
+                    </div>
+                    <div class="service-card">
+                        <h3>Race de chien</h3>
+                        <p>Vous avez adopté un chiot, vous allez l’accueillir et vous ne savez pas comment faire : Nous vous accompagnons et vous conseillons pour l’installation du chiot dans son nouvel environnement.</p>
+                        <a href="tel:0658064286" class="btn-service">Contactez-nous</a>
+                    </div>
+                    <div class="service-card">
+                        <h3>Éducateur de chiot</h3>
+                        <p>Vous souhaitez être aidé pour l’éducation de votre chiot et faire de lui un chien épanoui, équilibré et bien dans ses pattes : Nous vous accompagnons dans l’éducation de votre chiot (à partir de ses deux mois).</p>
+                        <a href="tel:0658064286" class="btn-service">Contactez-nous</a>
+                    </div>
+                </div>
+
+                <!-- SECTION TEXTE EXPLICATIF CHIOT -->
+                <section class="chiot-explications">
+                        <div class="container">
+                            <h2>L’importance de l’éducation chez les chiots</h2>
+
+                            <p>
+                                L’éducation du chiot est primordiale puisqu’elle déterminera son comportement et son adaptation à l’environnement extérieur à l’âge adulte. Il est donc conseillé dès les deux mois du chiot de faire appel à un <strong>éducateur canin</strong>.
+                            </p>
+
+                            <p>
+                                L’éducateur canin vous apprendra à gérer votre chiot en toutes circonstances. Un <strong>lien de confiance</strong> se tissera entre vous et vous pourrez l’emmener partout avec vous. Vous aurez ainsi un chien <strong>confiant et équilibré</strong>, et vous comme lui, pourrez vivre une vie heureuse et sereine en toute complicité.
+                            </p>
+
+                            <p>
+                                Lors des cours d’éducation du chiot, l’éducateur canin vous proposera des <strong>activités ludiques</strong> permettant à votre chiot de faire face à plusieurs types de situations différentes (auditives, olfactives et visuelles). Il le mettra également en contact avec d’autres chiens afin de l’habituer à ses congénères et leur façon de fonctionner.
+                            </p>
+
+                            <p>
+                                Le terme d’« école du chiot » est souvent utilisé pour parler de l’éducation du chiot. Il s’agit en fait d’une <strong>marque protégée</strong> qui est aujourd’hui rentrée dans le langage courant. D’ailleurs, que l’on parle de <strong>dressage de chiot</strong> ou d’<strong>éducation du chiot</strong>, le but est le même, seule la méthode diffère.
+                            </p>
+                        </div>
+                </section>
+                <section class="section-chiot-travail">
+                    <div class="container">
+                        <h2>Le travail effectué avec le chiot</h2>
+
+                        <div class="services-container">
+                            <div class="service-card">
+                                <h3>La propreté</h3>
+                                <p>Si vous adoptez un chiot de 2 mois, sachez qu’il ne sera pas encore propre. Les chiens le deviennent entre 4 et 6 mois. Nous vous donnerons des astuces pour apprendre à gérer la propreté plus rapidement et de façon sereine.</p>
+                            </div>
+
+                            <div class="service-card">
+                                <h3>La gestion des repas</h3>
+                                <p>On a tendance à penser qu’il est très facile de nourrir un chien puisqu’il s’agit d’un besoin naturel. Or, il existe plusieurs méthodes pour apprendre au chien à gérer ses ressources et notamment la nourriture. Les repas font partie intégrante de l’éducation du chiot.</p>
+                            </div>
+
+                            <div class="service-card">
+                                <h3>La gestion de la solitude</h3>
+                                <p>Lors de sa première nuit chez vous, votre chiot va beaucoup pleurer. En effet, ce sera la première nuit qu’il passera loin de sa mère et de ses frères et sœurs. Ensuite, votre chiot va devoir apprendre à gérer la solitude.</p>
+                            </div>
+
+                            <div class="service-card">
+                                <h3>La découverte de l’environnement urbain</h3>
+                                <p>On parle ici de socialisation. Votre chiot va devoir s’habituer à tous les bruits, tous les objets et toutes les odeurs qu’il pourra rencontrer en milieu urbain.</p>
+                            </div>
+
+                            <div class="service-card">
+                                <h3>La gestion des mordillements</h3>
+                                <p>Le mordillement est un comportement normal chez le chiot. Tel un bébé, il va découvrir le monde à travers sa bouche. Cependant, en grandissant, il va devoir apprendre à gérer les mordillements.</p>
+                            </div>
+
+                            <div class="service-card">
+                                <h3>La sociabilisation</h3>
+                                <p>Les chiens ont besoin de côtoyer leurs congénères et d’autres espèces afin d’être heureux et équilibré. L’éducateur canin vous accompagnera afin que votre chiot ne soit pas confronté à de mauvaises expériences dès son jeune âge.</p>
+                            </div>
+
+                            <div class="service-card">
+                                <h3>L’apprentissage des ordres de base</h3>
+                                <p>Le chiot va devoir apprendre les 6 ordres de base : « assis », « couché », « stop », « pas bougé », le rappel et la marche en laisse.</p>
+                            </div>
+
+                            <div class="service-card">
+                                <h3>L’apprentissage des règles de son foyer</h3>
+                                <p>Chaque foyer dispose de règles pour les enfants, les invités ou les animaux. Il faudra aider le chiot à comprendre les règles de son foyer afin qu’il y trouve sa place.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </section>
+
+
+
+        <!-- FINAL HERO -->
+        <section class="final-hero">
+            <h3>Connaître notre fonctionnement et notre méthode d’éducation ?</h3><br>
+            <a href="tel:0658064286" class="btn-final">Contactez-nous au 06 58 06 42 86</a>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <h3 class="footer-title">Contactez-moi</h3>
+            
+            <div class="footer-contacts">
+                <a href="tel:0612210744" class="footer-contact">
+                    📞 06 12 21 07 44
                 </a>
-            </td>
-        </tr>
-    </table>  
+                <a href="mailto:latribucanine@gmail.com" class="footer-contact">
+                    ✉️ latribucanine@gmail.com
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61581794217157" class="footer-contact">
+                    <img class="footer-icon" src="/Images/facebook_white.png" alt="Facebook">
+                </a>
+            </div>
 
-    <br>
-    Liste des sites partenaires : <br>
-    <a href="https://www.proxianimaux.fr">https://www.proxianimaux.fr</a>
-</footer>
+            <div class="footer-partners">
+                <p>Sites partenaires :</p>
+                <a href="https://www.proxianimaux.fr">proxianimaux.fr</a>
+            </div>
+        </footer>
 
 
+    <script src="animation.js"></script>
 </body>
 </html>

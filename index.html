@@ -3,56 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vous voulez de l'aide poour eduquer votre chien ou resoudre ses troubles de comportement. La tribu canine vous accompagne pour resoudre vos problemes.">
+    <meta name="description" content="Vous voulez de l'aide pour éduquer votre chien ou résoudre ses troubles de comportement. La Tribu Canine vous accompagne pour résoudre vos problèmes.">
     <link rel="icon" href="/Images/ltcfavicon.ico" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <title>Accueil - La Tribu Canine - Educateur comportementaliste canin</title>
 </head>
+
+<!-- PAGE D'ACCUEIL - LA TRIBU CANINE -->
 <body>
+    <header>
+        <a href="index.html">
+            <img id="Logo" src="/Images/LOGO tribu canine.png" alt="Logo Tribu Canine" > <br>
+        </a>
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="educateur-canin-chambery.html">Éducateur canin</a></li>
+                <li><a href="educateur-chiot-chambery.html">Éducateur de chiot</a></li>
+                <li><a href="comportementaliste-canin-chambery.html">Comportementaliste canin</a></li>
+                <!-- <li><a href="temoignages.html">Témoignages</a></li> -->
+                <li><a href="nos-methodes.html">Nos méthodes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <a href="index.html">
-        <img id="Logo" src="/Images/LOGO tribu canine.png" alt="Logo Tribu Canine" > <br>
-    </a>
-        <header>
-    <nav class="navbar">
-
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="menu-icon">&#9776;</label>
-
-        <ul class="menu">
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="educateur-canin-chambery.html">Éducateur canin</a></li>
-            <li><a href="educateur-chiot-chambery.html">Éducateur de chiot</a></li>
-            <li><a href="comportementaliste-canin-chambery.html">Comportementaliste canin</a></li>
-            <li><a href="temoignages.html">Témoignages</a></li>
-            <li><a href="nos-methodes.html">Nos méthodes</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-
+    <!-- CORPS DE PAGE -->
     <main>
-        <h1>
-            Educateur et comportementaliste canin à Chambéry et tout le bassin chambérien,<br>
-            de Aix-les-Bains à Challes-les-eaux (73)
-        </h1>
+        <!-- HERO -->
+        <section class="hero" style="background-image:url('/assets/hero-chien.jpg');">
+            <div class="hero-inner">
+                <h1>La Tribu Canine</h1>
+                <h2>Educateur Comportementaliste Canin à Chambéry (73)</h2> <br>
+                <p class="lead">        
+                    Spécialiste de l'éducation canine et des troubles graves du comportement. <br>
+                    Toutes les races, tous les âges (de 2 mois à 10 ans et plus), tous les problèmes.<br>
+                    Méthodes positives<br><br>
+                    Vous avez déjà vu un ou plusieurs éducateurs pour votre chien et vous n'avez pas obtenu les résultats escomptés ?<br><br>
+                    <b>NE RESTEZ PAS SUR UN <strong>ÉCHEC !</strong></b> <br>
+                    La Tribu Canine vous apporte les solutions !<br>
+                </p>
+            <div class="cta-row">
+                <a class="btn btn--primary" href="tel:0612210744">Appelez-moi : 06 12 21 07 44</a>
+                <a class="btn btn--secondary" href="mailto:latribucanine@gmail.com">Contactez-moi par mail</a>
+            </div>
+            <p class="contact-meta">Séances à domicile ou en extérieur • Chambéry, Aix-les-Bains & environs</p>
+        </section>
 
-        <article>
-            <p id="presentation">
-                
-                Spécialiste de l’éducation canine et des troubles graves du comportement. <br>
-                Toutes les races, tous les âges (de 2 mois à 10 ans et +), tous les problèmes.<br>
-                Méthodes positives<br>
-                Vous avez déjà vu un ou plusieurs éducateurs pour votre chien et vous n’avez pas obtenu les résultats escomptés?<br><br>
-                <b>NE RESTEZ PAS SUR UN ECHEC !</b> <br>
-                La Tribu Canine vous apporte les solutions !<br>
-            </p>
-        </article>
+        <!-- CTA -->
         <section class="cta-promo">
             <div class="cta-container">
             <h2 class="cta-title">🎁 Offre spéciale de lancement</h2>
             <p class="cta-text">
-                Pour fêter l’ouverture de <strong>La Tribu Canine</strong>, nous offrons un
+                Pour fêter l'ouverture de <strong>La Tribu Canine</strong>, nous offrons un
                 <strong>accompagnement personnalisé GRATUIT</strong> aux
                 <strong>10 premiers clients</strong> !
             </p>
@@ -63,67 +70,243 @@
             </div>
         </section>
 
-        <article id>
+        <!-- COURS CANIN EN SAVOIE -->
+        <section class="section-cours-savoie">
+            <h2>Cours canins en Savoie (73)</h2>
+            <article id="contenu-cours">
+                <ul>
+                    <li>
+                        <strong>Éducation canine adaptée à chaque chien</strong><br>
+                        <p>Avec l'apprentissage des bases essentielles : assis, couché, pas bougé, rappel, stop, marche en laisse.</p>
+                    </li>
+                    <li>
+                        <strong>Spécialiste des troubles du comportement</strong><br>
+                        <p>Agressivité, peur, anxiété, destruction, malpropreté, fugue… Chaque problème a une solution.</p>
+                    </li>
+                    <li>
+                        <strong>Méthodes semi-positives adaptées à chaque chien</strong><br>
+                        <p>Peu importe la race ou la difficulté rencontrée, un accompagnement sur mesure est possible.</p>
+                    </li>
+                    <li>
+                        <strong>Des séances adaptées à votre quotidien</strong><br>
+                        <p>À domicile ou en extérieur, en fonction des besoins spécifiques de votre chien.</p>
+                    </li>
+                    <li>
+                        <strong>Un suivi personnalisé</strong><br>
+                        <p>Cours individuels, cours collectifs et balades éducatives pour renforcer l'apprentissage dans des situations réelles.</p>
+                    </li>                    
+                </ul>
+                <p>Éducation canine adaptée à chaque chien, quel que soit son âge, sa race ou ses difficultés.</p>
+                <a class="btn btn--primary" href="tel:0612210744">Appelez-moi : 06 12 21 07 44</a>
+                <br>
+            </article>
+        </section>
+        <!-- TEMOIGNAGES -->
 
-        </article>
+        <!-- NOS SERVICES -->
+        <section class="section-services">
+            <h2>Nos services</h2>
+            <div class="services-container">
+                <!-- Service Chien -->
+                <div class="service-card">
+                    <img src="/Images/education_chien.jpg" alt="Éducation du chien" class="service-icon">
+                    <h3>Éducation du chien</h3>
+                    <p>
+                    Votre chien ne vous obéit pas ! Il tire en laisse et ne revient pas au rappel ! Vos balades sont désagréables !<br><br>
+                    À la maison, il n'en fait qu'à sa tête. Il est intenable ! Il est très têtu !<br><br>
+                    Vous souhaitez apprendre à gérer votre chien en toutes circonstances ?<br><br>
+                    L'éducation du chien est faite pour vous !!
+                    </p>
+                    <a class="btn-service" href="tel:0612210744">Appelez-moi : 06 12 21 07 44</a>
+                    <a class="btn-service" href="educateur-canin-chambery.html">En savoir plus</a>
+                </div>  
 
-        <article id="zone_d-activité">
-            <section>
-                <img src="/Images/screen_google_maps.png" alt="zone d'activité" id="zone_img">
-            </section>
+                <!-- Service Chiot -->
+                <div class="service-card">
+                    <img src="/Images/education_chiot.jpg" alt="Éducation du chiot" class="service-icon">
+                    <h3>Éducation du chiot</h3>
+                    <p>
+                        Vous venez d'accueillir un chiot et vous souhaitez lui apporter de bonnes bases ?<br><br>
+                        Vous souhaitez lui apprendre à gérer les mordillements, les repas, la solitude, la propreté, les bruits extérieurs et les ordres de base ?<br><br>
+                        L'éducation du chiot est faite pour vous !!
+                    </p>
+                    <a class="btn-service" href="tel:0612210744">Appelez-moi : 06 12 21 07 44</a>
+                    <a class="btn-service" href="educateur-chiot-chambery.html">En savoir plus</a>
+                </div>
 
-            <section id="description_zone_d'activité">
-                Education canine sur Chambéry, Cognin, Barberaz, La Ravoire, Challes-les-eaux, Barby, Saint-Alban-Leysse, Bassens, La Motte-Servolex, <br>
-                Sonnaz, Mery, Voglans, Le Bourget-du-Lac, Viviers-du-Lac, Drumettaz-Clarafond, Tresserve, Aix-les-Bains, Mouxy, Bourdeau, Saint-Jean-de-Chevelu, Yenne et communes alentours.
-            </section>
+                <!-- Service Comportementalisme -->
+                <div class="service-card">
+                    <img src="/Images/comportementalisme_canin.jpg" alt="Comportementalisme canin" class="service-icon">
+                    <h3>Comportementalisme canin</h3>
+                    <p>
+                        Votre chien a un comportement qui vous dépasse ?<br><br>
+                        Il est agressif ou malpropre, craintif, destructeur ou fugueur ? Il saute, vole ou aboie de façon incessante ?<br><br>
+                        La Tribu Canine résout tous les problèmes de comportement même les plus graves et s'adapte à chaque chien et à chaque maître.
+                    </p>
+                    <a class="btn-service" href="tel:0612210744">Appelez-moi : 06 12 21 07 44</a>
+                    <a class="btn-service" href="comportementaliste-canin-chambery.html">En savoir plus</a>
+                </div>
+            </div>
+        </section>
 
-        </article>
-
-        <article id="FAQ">
-
-        </article>
-        <h2>
-            Le site est en cours de construction. <br>
-        </h2>
+        <!-- FORMATION / CREDIBILITE -->
+        <section class="section-formation">
+            <h2>Formation & expertise</h2>
             <p>
-                Vous rencontrez des problématiques d'éducation ? De comportement ? Ou vous voulez tout simplement du conseil pour plus de complicité avec votre animal ?<br>
-                <h2>N'hésitez pas à me contacter au 06 12 21 07 44 pour tout renseignement.</h2> <br>
-                <br>
-                Je travaille principalement en vous proposant un accompagnement pour résoudre vos soucis !<br>
-                <br>
-                Si je ne réponds pas vous pouvez me laisser un message ou me joindre par sms.<br>
+                Nous travaillons avec des méthodes positives mais non permissives
+                et toujours dans le respect du bien-être de l'animal. Chez nous, 
+                pas de colliers étrangleurs, électriques ou de matériels coercitifs.
+                Nous n'avons pas besoin de crier ou de nous énerver. 
+                Notre méthode est basée sur les lois d'apprentissage et les sciences du comportement. 
+                Elles nous permettent d'avoir des résultats spectaculaires très rapidement et qui perdurent dans le temps.
+                Notre but n'est pas de faire à votre place mais de vous
+                apprendre à comprendre votre chien et à le gérer partout,
+                tout le temps et en toutes circonstances, quelle que soit votre problématique. <br>
             </p>
-        <h2>
-            Merci de votre visite
-        </h2>
-    </main>
+        </section>
 
-    <footer>
-    <table id="footer_contact">
-        <tr>
-            <th colspan="3" id="footer_title">Contactez-moi par ces moyens</th>
-        </tr>
-        <tr>
-            <td>Appels et SMS</td>
-            <td>E-mail</td>
-            <td>Réseaux Sociaux</td>
-        </tr>
-        <tr>
-            <td>06 12 21 07 44</td>
-            <td><a href="mailto:latribucanine@gmail.com">latribucanine@gmail.com</a></td>
-            <td>
-                <a href="https://www.facebook.com/profile.php?id=61581794217157">
-                    <img id="icon-fb" src="/Images/facebook.png" alt="Facebook">
+
+
+        <!-- ZONE D'ACTIVITE -->
+        <section class="section-zone-activite">
+            <h2>Zone d'activité</h2>
+            <div class="zone-container">       
+                <!-- Carte -->
+                <div class="zone-carte">
+                    <img src="/Images/screen_google_maps.png" alt="Carte de la zone d'activité">
+                </div>
+                <!-- Texte avec les villes -->
+                <div class="zone-villes">
+                    <p>
+                        <strong>Éducation canine</strong> sur Chambéry, Cognin, Barberaz, La Ravoire, Challes-les-Eaux, Barby, Saint-Alban-Leysse, Bassens, La Motte-Servolex, 
+                        Sonnaz, Mery, Voglans, Le Bourget-du-Lac, Viviers-du-Lac, Drumettaz-Clarafond, Tresserve, Aix-les-Bains, Mouxy, 
+                        Bourdeau, Saint-Jean-de-Chevelu, Yenne et communes alentours.
+                    </p>
+                </div>
+        
+            </div>
+        </section>
+        <!-- =======================
+            📌 SECTION FAQ
+            ======================= -->
+        <section class="faq-section">
+            <h2>Foire Aux Questions</h2>
+
+            <!-- Accordéon 1 -->
+            <div class="faq-item">
+                <button class="faq-question">Comment fonctionnez-vous ?</button>
+                <div class="faq-answer">
+                    <p>
+                        Nous fonctionnons en 5 étapes : <br><br>
+
+                        <strong>Étude de comportement</strong><br>
+                        Quels que soient la race, l'âge ou les problématiques que vous rencontrez avec votre chien, il convient dans un premier temps de procéder à une étude de comportement, au coùt de 60 euros, afin d'analyser chaque situation et de comprendre les problématiques que vous rencontrez. La Tribu Canine, éducateur canin, spécialiste du comportement canin, vous établit un devis personnalisé en fonction de vos attentes, des problématiques que vous rencontrez et de votre budget.<br><br>
+
+                        <strong>Séance Première Patte</strong><br>
+                        Cette séance a pour objectif de vous faire comprendre comment fonctionne votre chien. Nous vous enseignons également comment communiquer avec lui. Tous les aspects du chien et de son langage sont abordés afin de pouvoir vous expliquer toutes les règles de vie à mettre en place, les besoins de votre chien et comment obtenir son obéissance, son respect et tisser une belle relation.<br><br>
+
+                        <strong>Séance Individuelle</strong><br>
+                        Pour les cas d'éducation sans troubles du comportement, les cours individuels ont pour but de vous enseigner toutes les méthodes d'éducation pour vous apprendre comment éduquer votre chien et le rendre obéissant avec les 6 ordres de base. Lors de ces cours, nous vous enseignons également en pratique cette fois-ci comment vous permettre de bien communiquer avec votre compagnon.<br><br>
+
+                        Dans les cas de résolution de troubles de comportement, c'est lors des cours individuels que nous mettons en place la thérapie comportementale adaptée à vos problèmes, à vous-même et à votre chien afin d'obtenir très rapidement leurs résolutions.<br><br>
+
+                        <strong>Séance collective</strong><br>
+                        Les cours collectifs ont lieu à Chambéry ou au Bourget-du-Lac le dimanche matin. Ils ont pour but de vous enseigner comment rendre votre chien obéissant en présence de stimuli et également d'autres chiens. C'est lors de ces cours collectifs que vous pouvez mettre en application les enseignements acquis lors des cours individuels. Ils permettent également de vérifier que chaque maître maîtrise son chien et que les chiens sont devenus de « bons citoyens ». Certains moments de ses cours comportent des récréations qui permettent à chaque chien de se socialiser encore un peu plus et de maîtriser les codes canins. Ludiques et dynamiques, les cours collectifs sont aussi un grand moment de plaisir pour les maîtres mais aussi pour leurs chiens. C'est également un extraordinaire moment de partage entre maîtres et entre chiens.<br><br>
+
+                        <strong>Les Balades Collectives</strong><br>
+                        Les balades éducatives sont généralement organisées le samedi matin en forêt de Maisons Laffitte. Elles sont considérées comme le « baccalauréat » ou l' « examen final de fin d'études » pour votre chien. Participer aux balades éducatives, veut dire que votre chien est devenu un « bon citoyen », que son éducation est terminée, et que vous pouvez enfin l'emmener partout avec vous, sans rencontrer le moindre souci. S'il était agressif, ou craintif, s'il ne revenait pas au rappel, s'il tirait en laisse, s'il ne vous écoutait pas, tout cela est alors devenu de l'histoire ancienne. Au-delà de ce point extrêmement important, les balades éducatives sont un formidable moment convivial de partage et de plaisir entre chiens et entre maîtres.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Accordéon 2 -->
+            <div class="faq-item">
+                <button class="faq-question">Dans quel secteur vous déplacez-vous ?</button>
+                <div class="faq-answer">
+                    <p>
+                        Je me déplace dans une zone d'environ 20 km autour de Chambéry dans le 73, soit les Chambéry, Cognin, Barberaz, La Ravoire, Challes-les-Eaux, Barby, Saint-Alban-Leysse, Bassens, La Motte-Servolex, Sonnaz, Mery, Voglans, Le Bourget-du-Lac, Viviers-du-Lac, Drumettaz-Clarafond, Tresserve, Aix-les-Bains, Mouxy, Bourdeau, Saint-Jean-de-Chevelu, Yenne et communes alentours…
+                    </p>
+                </div>
+            </div>
+
+            <!-- Accordéon 3 -->
+            <div class="faq-item">
+                <button class="faq-question">Quels sont vos tarifs ?</button>
+                <div class="faq-answer">
+                    <p>
+                        Avant de mettre en place un programme d'éducation ou de rééducation, il est essentiel de comprendre les difficultés que vous rencontrez avec votre chien et les objectifs que vous souhaitez atteindre.<br><br>
+
+                        C'est pourquoi je commence toujours par un bilan comportemental. Cette première rencontre me permet d'observer votre chien dans son environnement, d'analyser ses réactions et d'échanger avec vous sur votre relation et vos attentes. À partir de ces éléments, je vous propose un accompagnement sur mesure avec un plan de travail adapté.<br><br>
+
+                        Le bilan dure environ une heure et est facturé 60 €.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Accordéon 4 -->
+            <div class="faq-item">
+                <button class="faq-question">Pourquoi l'intervention d'un éducateur canin est bénéfique ?</button>
+                <div class="faq-answer">
+                    <p>
+                        L'éducation canine consiste à apprendre les règles de conduite à un chien dans la vie quotidienne. Elle sert à rendre les chiens civiques, c'est-à-dire à les rendre aptes à vivre en société. En effet, les chiens sont des animaux de meute ayant leurs propres règles de fonctionnement, leur propre langage et leurs propres caractéristiques sociales. Une fois arrivés dans notre société, ils ont besoin de connaître nos règles de fonctionnement pour pouvoir vivre à nos côtés de façon équilibrée et sécurisée non seulement pour eux mais aussi pour leur entourage et la société. Or, pour leur faire comprendre notre mode de fonctionnement, il faut avant tout les comprendre et leur parler dans leur langage.<br><br>
+
+                        Il est donc fortement conseillé de faire appel à un éducateur canin pour effectuer l'éducation de son chien.<br><br>
+
+                        L'éducateur canin, spécialiste de l'éthologie et de la race canine, va faire le lien entre le langage du chien et celui de l'Homme. Il va ainsi expliquer et apprendre au maître à comprendre son chien et à communiquer avec lui. Le maître pourra ainsi, accompagné de l'éducateur canin, enseigner à son chien les règles de vie indispensables à ce que tout le monde, chien comme humain, trouve le bon équilibre. Puis l'éducateur canin forme et accompagne maître et chien à l'apprentissage des règles de base qui sont les ordres de base (assis, couché, pas bougé, etc …), la marche en laisse et le rappel.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Accordéon 5 -->
+            <div class="faq-item">
+                <button class="faq-question">Qu'est-ce que la rééducation canine ?</button>
+                <div class="faq-answer">
+                    <p>
+                        Rééduquer un chien, c'est lui désapprendre des comportements qui sont inappropriés pour lui apprendre de nouveaux comportements. C'est changer son système de fonctionnement et l'amener vers un comportement nouveau plus en adéquation avec les situations rencontrées. La rééducation sous-entend que l'on reprenne et que l'on rééquilibre un travail inachevé ou alors mal fait.<br><br>
+
+                        En clair, rééduquer un chien, c'est faire disparaître un éventuel mauvais comportement dans un premier temps pour ensuite faire apparaître un comportement davantage souhaité par le maître.<br><br>
+
+                        Quand on parle de rééducation, on pense aux chiens adultes et notamment aux chiens de refuge, mais de nombreux jeunes chiens prennent de mauvaises habitudes très tôt et une rééducation est alors aussi nécessaire. Rééduquer un jeune chien est bien entendu plus facile ou rapide car les mauvaises habitudes ne sont pas ancrées depuis très longtemps, mais c'est tout de même une démarche de rééducation.<br><br>
+
+                        Dès lors que l'on voudra atténuer ou supprimer un mauvais comportement pour faire place à un nouveau comportement plus apprécié par les maîtres, il s'agit de rééducation.<br><br>
+
+                        Lorsque l'on rééduque un chien, il faut prendre en compte tout ce qu'il a vécu par le passé pour pouvoir anticiper d'éventuels blocages, traumatismes ou habitudes bien ancrées.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        
+        <!-- FINAL HERO -->
+        <section class="final-hero">
+            <h2>La Tribu Canine</h2>
+            <p>Votre éducateur comportementaliste canin à domicile</p>
+            <a href="tel:0612210744" class="btn-final">Appelez-moi</a>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <h3 class="footer-title">Contactez-moi</h3>
+            
+            <div class="footer-contacts">
+                <a href="tel:0612210744" class="footer-contact">
+                    📞 06 12 21 07 44
                 </a>
-            </td>
-        </tr>
-    </table>  
+                <a href="mailto:latribucanine@gmail.com" class="footer-contact">
+                    ✉️ latribucanine@gmail.com
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61581794217157" class="footer-contact">
+                    <img class="footer-icon" src="/Images/facebook_white.png" alt="Facebook">
+                </a>
+            </div>
 
-    <br>
-    Liste des sites partenaires : <br>
-    <a href="https://www.proxianimaux.fr">https://www.proxianimaux.fr</a>
-</footer>
+            <div class="footer-partners">
+                <p>Sites partenaires :</p>
+                <a href="https://www.proxianimaux.fr">proxianimaux.fr</a>
+            </div>
+        </footer>
 
 
+    <script src="animation.js"></script>
 </body>
 </html>
